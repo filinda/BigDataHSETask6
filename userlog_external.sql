@@ -1,8 +1,6 @@
 CREATE EXTERNAL TABLE USERLOGS (
 	DAY string,
-	TICKTIME string/*,
-	"USER_ID" string,
-	"H_VALUE" string*/
+	TICKTIME string
 )
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ',' 
